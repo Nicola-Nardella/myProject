@@ -1,0 +1,3 @@
+# myProject
+
+improve my skills in JavaScript, React, Node, ...
