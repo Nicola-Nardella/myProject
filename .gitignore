@@ -1,0 +1,9 @@
+build
+bower_components
+node_modules
+npm-debug.log
+
+# VS Code
+typings*
+jsconfig.json
+.vscode

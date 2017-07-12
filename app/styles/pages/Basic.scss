@@ -1,0 +1,31 @@
+.Basic {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  &--loaded {
+    .Basic-excel {
+      div {
+        cursor: initial;
+        pointer-events: none;
+        color: silver;
+        &:hover {
+          box-shadow: initial;
+        }
+      }
+    }
+  }
+  &-excel {
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      color: green;
+      border: 1px solid silver !important;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+      }
+    }
+  }
+}
